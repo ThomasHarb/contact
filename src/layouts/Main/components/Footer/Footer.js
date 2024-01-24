@@ -21,7 +21,7 @@ const Footer = () => (
           display={'flex'}
           component="a"
           underline="none"
-          href="/"
+          href="https://thomasharb.github.io/home/"
           title="home"
           height={24}
           width={35}
@@ -44,7 +44,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/page-customers"
+              href="https://thomasharb.github.io/projects/"
               color="textPrimary"
               variant={'subtitle2'}
             >
