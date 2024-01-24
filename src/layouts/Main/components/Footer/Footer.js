@@ -33,7 +33,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/"
+              href=	"https://thomasharb.github.io/home/"
               color="textPrimary"
               variant={'subtitle2'}
             >
@@ -57,7 +57,7 @@ const Footer = () => (
               color="primary"
               component="a"
               target="blank"
-              href="/page-contact"
+              href={ process.env.PUBLIC_URL + "/" }
               size="small"
             >
               Contact me

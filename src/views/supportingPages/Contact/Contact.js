@@ -25,11 +25,6 @@ const Contact = ({ themeMode = 'light' }) => {
           </Grid>
         </Grid>
       </Container>
-      <Box bgcolor={theme.palette.alternate.main}>
-        <Container maxWidth={800}>
-          <Faq />
-        </Container>
-      </Box>
     </Box>
   );
 };
