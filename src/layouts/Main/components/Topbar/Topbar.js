@@ -32,7 +32,7 @@ const Topbar = ({ onSidebarOpen }) => {
           alignItems="baseline"
           component="a"
           underline="none"
-          href={process.env.PUBLIC_URL + "/"}
+          href="https://thomasharb.github.io/home/"
           title="THarbonnier"
           height={{ xs: 28, md: 32 }}
           width={45}
